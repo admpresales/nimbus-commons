@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+packer_cache
+output-vmware-iso
+*.7z
+*.gz
+*.tar
+*.retry
