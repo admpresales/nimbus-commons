@@ -156,6 +156,11 @@
     "NoDefaultBookmarks": true,
     "DisplayBookmarksToolbar": true,
     "DisableAppUpdate": true,
+    "DontCheckDefaultBrowser": true,
+    "Homepage": {
+      "URL": "http://www.google.com/",
+      "StartPage":  "homepage"
+    },
     "ExtensionSettings": {
       "*": {
         "allowed_types": [
@@ -164,7 +169,7 @@
         "installation_mode": "allowed"
       },
       "UFT.FirefoxAgent@microfocus.com": {
-        "install_url": "file://C:/Program Files (x86)/Micro Focus/Unified Functional Testing/Installations/Firefox/Agent.xpi",
+        "install_url": "file://C:/Program Files (x86)\\Micro Focus\\Unified Functional Testing\\Installations\\Firefox\\WebExtension.xpi",
         "installation_mode": "normal_installed"
       }
     }
