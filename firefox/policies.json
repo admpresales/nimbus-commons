@@ -151,6 +151,18 @@
         "Placement" : "toolbar",
         "Folder" : "SV",
         "URL" : "https://nimbusserver:6085/management"
+      },
+      {
+        "Title": "Load Runner Enterprise",
+        "Placement": "toolbar",
+        "Folder": "LRE",
+        "URL": "http://nimbuswindows.aos.com/LoadTest"
+      },
+      {
+        "Title": "Load Runner Enterprise (Admin)",
+        "Placement": "toolbar",
+        "Folder": "LRE",
+        "URL": "http://nimbuswindows.aos.com/admin"
       }
     ],
     "NoDefaultBookmarks": true,
