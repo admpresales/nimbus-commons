@@ -290,7 +290,7 @@
         "Placement" : "toolbar",
         "Folder" : "UFTM",
         "URL" : "http://localhost:8080/integration/?#/lab"
-      },
+      }
     ],
     "NoDefaultBookmarks": true,
     "DisplayBookmarksToolbar": true,
