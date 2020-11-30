@@ -311,6 +311,12 @@
         "install_url": "file://C:/Program Files (x86)\\Micro Focus\\Unified Functional Testing\\Installations\\Firefox\\WebExtension.xpi",
         "installation_mode": "normal_installed"
       }
+    },
+    "Preferences": {
+      "security.insecure_field_warning.contextual.enabled": {
+        "Value": false,
+        "Status": "default"
+      }
     }
   }
 }
