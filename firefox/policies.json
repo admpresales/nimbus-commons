@@ -52,6 +52,12 @@
         "URL": "http://nimbusserver.aos.com:8085/"
       },
       {
+        "Title": "ALM Prisma",
+        "Folder" : "ADM Products",
+        "Placement": "toolbar",
+        "URL": "http://nimbusserver.aos.com:8185/"
+      },
+      {
         "Title" : "ALM/Quality Center",
         "URL" : "http://nimbusserver.aos.com:8082/qcbin",
         "Folder" : "ADM Products",
