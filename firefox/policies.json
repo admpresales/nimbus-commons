@@ -296,6 +296,54 @@
         "Placement" : "toolbar",
         "Folder" : "UFTM",
         "URL" : "http://localhost:8080/integration/?#/lab"
+      },
+      {
+        "Title" : "ART Product Homepage",
+        "Placement" : "toolbar",
+        "Folder" : "ART",
+        "URL" : "www.microfocus.com/software/art"
+      },
+      {
+        "Title" : "ART Product Homepage",
+        "Placement" : "toolbar",
+        "Folder" : "ART",
+        "URL" : "https://www.microfocus.com/software/art"
+      },
+      {
+        "Title" : "Education eBook",
+        "Placement" : "toolbar",
+        "Folder" : "ART",
+        "URL" : "https://www.microfocus.com/media/ebook/micro-focus-education-ebook.pdf"
+      },
+      {
+        "Title" : "Software Education Training and Exams",
+        "Placement" : "toolbar",
+        "Folder" : "ART",
+        "URL" : "https:/www.microfocus.com/training"
+      },
+      {
+        "Title" : "ADM Learning Paths",
+        "Placement" : "toolbar",
+        "Folder" : "ART",
+        "URL" : "https://admin.viewcentral.com/events/uploads/microfocus/Application_Delivery_Managemen_Certification.pdf"
+      },
+      {
+        "Title" : "ITOM Learning Paths",
+        "Placement" : "toolbar",
+        "Folder" : "ART",
+        "URL" : "https://admin.viewcentral.com/events/uploads/microfocus/IT_Operations_Management_Certification.pdf"
+      },
+      {
+        "Title" : "Security Learning Paths",
+        "Placement" : "toolbar",
+        "Folder" : "ART",
+        "URL" : "https://admin.viewcentral.com/events/uploads/microfocus/Security_Risk_and_Governance.pdf"
+      },
+      {
+        "Title" : "Vertica Learning Paths",
+        "Placement" : "toolbar",
+        "Folder" : "ART",
+        "URL" : "https://admin.viewcentral.com/events/uploads/microfocus/vertica.pdf"
       }
     ],
     "NoDefaultBookmarks": true,
