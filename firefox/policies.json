@@ -34,7 +34,7 @@
         "URL" : "http://nimbusserver.aos.com:8000/admin/"
       },
       {
-        "Title" : "Advantage Online Shopping - Managament Console",
+        "Title" : "Advantage Online Shopping - Management Console",
         "Folder" : "ADM Products",
         "Placement" : "toolbar",
         "URL" : "http://nimbusserver.aos.com:8000/admin/"
@@ -193,24 +193,6 @@
         "Title" : "Release Control Administration",
         "URL" : "http://nimbuswindows/workcenter/tmtrack.dll?shell=swc&StdPage&Template=rlc/admin",
         "Folder" : "RLC",
-        "Placement" : "toolbar"
-      },
-      {
-        "Title" : "RPA Central",
-        "URL" : "https://rpa-central.aos.com:8443/oo-central/",
-        "Folder" : "RPA",
-        "Placement" : "toolbar"
-      },
-      {
-        "Title" : "RPA Designer",
-        "URL" : "https://rpa-designer.aos.com:8447/oo-designer/",
-        "Folder" : "RPA",
-        "Placement" : "toolbar"
-      },
-      {
-        "Title" : "RPA SSX",
-        "URL" : "https://rpa-ssx.aos.com:8446/oo-ssx/",
-        "Folder" : "RPA",
         "Placement" : "toolbar"
       },
       {
