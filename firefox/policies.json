@@ -262,6 +262,24 @@
         "Placement" : "toolbar"
       },
       {
+        "Title" : "SAP S/4HANA Fiori LaunchPad",
+        "URL" : "https://sap-hana.mfdemoportal.com:44300/sap/bc/ui2/flp?sap-client=100&sap-language=EN#Shell-home",
+        "Folder" : "SAP",
+        "Placement" : "toolbar"
+      },
+      {
+        "Title" : "SAP SolMan ITSM",
+        "URL" : "https://sap-sm.mfdemoportal.com:50001/sap(bD1lbiZjPTAwMSZkPW1pbg==)/bc/bsp/sap/crm_ui_start/default.htm",
+        "Folder" : "SAP",
+        "Placement" : "toolbar"
+      },
+      {
+        "Title" : "SAP SolMan Solution Documentation (BPH)",
+        "URL" : "https://sap-sm.mfdemoportal.com:50001/sap/bc/webdynpro/sap/smud_frame?sap-client=001&sap-language=EN#",
+        "Folder" : "SAP",
+        "Placement" : "toolbar"
+      },
+      {
         "Folder" : "SV",
         "Title" : "SV Lab Server",
         "Placement" : "toolbar",
