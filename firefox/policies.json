@@ -230,7 +230,7 @@
         "URL" : "http://nimbusserver.aos.com:8087/itg/web/knta/test/AgileConnectorsUsageReport.jsp",
         "Folder" : "PPM",
         "Placement" : "toolbar"
-      }
+      },
       {
         "Title" : "Release Control (RLC)",
         "URL" : "http://nimbuswindows/workcenter/tmtrack.dll?shell=swc#2",
