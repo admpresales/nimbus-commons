@@ -71,20 +71,18 @@ sub start_vpn {
 		vpnclient('start');
 	}}	
 	else {{
-		print "Windows\n";
-		run("${vpnClientDir}/vpnclient /start");
-		sleep 5
+		run("${vpnClientDir}/vpnclient /start /silent");
 	}}
 
     return if grep { /noconnect/ } @_;
 
     print "Attempting to connect...\n";
     vpncmd('accountconnect', 'SAP-VPN');
-	
+
 	if( $osname eq 'linux' ){{
 		print "Getting IP Address...\n";
-		
-		
+
+
 		run(qw(sudo dhclient -x)) if qx(pgrep dhclient);
 		run(qw(sudo dhclient vpn_vpn));
 		system(qw(ip address show dev vpn_vpn));
@@ -95,9 +93,9 @@ sub stop_vpn {
     print "Stopping VPN...\n";
 	if( $osname eq 'linux' ){{
 		vpnclient('stop');
-	}}	
+	}}
 	else {{
-		run("${vpnClientDir}/vpnclient /stop");
+		run("${vpnClientDir}/vpnclient /stop /silent");
 	}}
 }
 
