@@ -52,12 +52,6 @@
         "URL": "http://nimbusserver.aos.com:8085/"
       },
       {
-        "Title": "PulseUno",
-        "Folder" : "ADM Products",
-        "Placement": "toolbar",
-        "URL": "http://nimbusserver.aos.com:8092/pulse/login.html"
-      },
-      {
         "Title" : "ALM/Quality Center",
         "URL" : "http://nimbusserver.aos.com:8082/qcbin",
         "Folder" : "ADM Products",
@@ -142,12 +136,6 @@
         "Placement" : "toolbar"
       },
       {
-        "Title" : "Dimensions RM",
-        "URL" : "http://nimbuswindows.aos.com:8080/rtmBrowser",
-        "Folder" : "ADM Products",
-        "Placement" : "toolbar"
-      },
-      {
         "Title" : "Fortify Software Security Center (SSC)",
         "Folder" : "ADM Products",
         "Placement" : "toolbar",
@@ -172,12 +160,6 @@
         "URL" : "http://nimbusserver.aos.com:8090/"
       },
       {
-        "Title" : "Jira",
-        "Placement" : "toolbar",
-        "Folder" : "ADM Products",
-        "URL" : "http://nimbusserver.aos.com:8099/"
-      },
-      {
         "Title": "Load Runner Enterprise",
         "Placement": "toolbar",
         "Folder": "LRE",
@@ -192,12 +174,6 @@
       {
         "Title" : "MF Connect",
         "URL" : "http://nimbusserver.aos.com:8081/ConnectWeb",
-        "Placement" : "toolbar",
-        "Folder" : "ADM Products"
-      },
-      {
-        "Title" : "Network Virtualization (Nimbus Windows)",
-        "URL" : "http://nimbuswindows.aos.com:8182/shunra/auth/login",
         "Placement" : "toolbar",
         "Folder" : "ADM Products"
       },
@@ -230,6 +206,12 @@
         "URL" : "http://nimbusserver.aos.com:8087/itg/web/knta/test/AgileConnectorsUsageReport.jsp",
         "Folder" : "PPM",
         "Placement" : "toolbar"
+      },
+      {
+        "Title": "PulseUno",
+        "Folder" : "ADM Products",
+        "Placement": "toolbar",
+        "URL": "http://nimbusserver.aos.com:8092/pulse/login.html"
       },
       {
         "Title" : "Release Control (RLC)",
@@ -290,24 +272,6 @@
         "Placement" : "toolbar",
         "Title" : "SV Management",
         "Folder" : "SV"
-      },
-      {
-        "Title" : "Silk Central (SC)",
-        "URL" : "http://nimbuswindows:19120/login",
-        "Folder" : "SC",
-        "Placement" : "toolbar"
-      },
-      {
-        "Title" : "SC Instance Administration (Nimbus Windows Only)",
-        "URL" : "http://localhost:19100/?lang=en",
-        "Folder" : "SC",
-        "Placement" : "toolbar"
-      },
-      {
-        "Title" : "SiteScope",
-        "URL" : "http://nimbusserver.aos.com:8887/SiteScope/WebMain#!/consolidatedview",
-        "Folder" : "ADM Products",
-        "Placement" : "toolbar"
       },
       {
         "Title" : "Application Repository",
