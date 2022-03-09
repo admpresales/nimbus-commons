@@ -1,5 +1,5 @@
 # Nimbus IP address and alias configuration
 
-192.168.80.140	nimbusclient nimbusclient.aos.com seattle denver chicago toronto london tokyo
+192.168.80.140	nimbusclient nimbusclient.aos.com lg-nimbusclient seattle denver chicago toronto london tokyo
 192.168.80.141	nimbusserver nimbusserver.aos.com
 192.168.80.142	nimbuswindows nimbuswindows.aos.com
