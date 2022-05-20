@@ -34,13 +34,7 @@
         "URL" : "http://nimbusserver.aos.com:8000/admin/"
       },
       {
-        "Title" : "Advantage Online Shopping - Management Console",
-        "Folder" : "ADM Products",
-        "Placement" : "toolbar",
-        "URL" : "http://nimbusserver.aos.com:8000/admin/"
-      },
-      {
-        "Title" : "Advantage Online Shopping (Public)",
+        "Title" : "Advantage Online Shopping - Public",
         "Folder" : "ADM Products",
         "Placement" : "toolbar",
         "URL" : "http://advantageonlineshopping.com/#/"
@@ -148,28 +142,28 @@
         "URL" : "http://nimbusserver.aos.com:8091/gitweb/"
       },
       {
-        "Title" : "Insurance Co. (Borland Demo Site)",
-        "Folder" : "ADM Products",
-        "Placement" : "toolbar",
-        "URL" : "http://demo.borland.com/InsuranceWebExtJS/"
-      },
-      {
         "Title" : "Jenkins CI",
         "Folder" : "ADM Products",
         "Placement" : "toolbar",
         "URL" : "http://nimbusserver.aos.com:8090/"
       },
       {
-        "Title": "Load Runner Enterprise",
+        "Title": "LoadRunner Enterprise",
         "Placement": "toolbar",
         "Folder": "LRE",
         "URL": "http://nimbuswindows.aos.com/LoadTest"
       },
       {
-        "Title": "Load Runner Enterprise (Admin)",
+        "Title": "LoadRunner Enterprise (Admin)",
         "Placement": "toolbar",
         "Folder": "LRE",
         "URL": "http://nimbuswindows.aos.com/admin"
+      },
+      {
+        "Title": "LoadRunner OneAnalysis",
+        "Placement": "toolbar",
+        "Folder": "LRE",
+        "URL": "http://nimbusserver.aos.com:5000/login"
       },
       {
         "Title" : "MF Connect",
@@ -212,18 +206,6 @@
         "Folder" : "ADM Products",
         "Placement": "toolbar",
         "URL": "http://nimbusserver.aos.com:8092/pulse/login.html"
-      },
-      {
-        "Title" : "Release Control (RLC)",
-        "URL" : "http://nimbuswindows/workcenter/tmtrack.dll?shell=swc#2",
-        "Folder" : "RLC",
-        "Placement" : "toolbar"
-      },
-      {
-        "Title" : "Release Control Administration",
-        "URL" : "http://nimbuswindows/workcenter/tmtrack.dll?shell=swc&StdPage&Template=rlc/admin",
-        "Folder" : "RLC",
-        "Placement" : "toolbar"
       },
       {
         "Title" : "SaaS Login",
@@ -272,18 +254,6 @@
         "Placement" : "toolbar",
         "Title" : "SV Management",
         "Folder" : "SV"
-      },
-      {
-        "Title" : "Application Repository",
-        "Placement" : "toolbar",
-        "Folder" : "SBM",
-        "URL" : "http://nimbuswindows:8085/mashupmgr"
-      },
-      {
-        "Title" : "SBM Work Center",
-        "Placement" : "toolbar",
-        "Folder" : "SBM",
-        "URL" : "http://nimbuswindows/workcenter"
       },
       {
         "Title" : "SonarQube",
