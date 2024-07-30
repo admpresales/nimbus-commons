@@ -22,6 +22,12 @@
         "URL": "https://hub.docker.com/u/admpresales"
       },
       {
+        "Title" : "Advantage Online Banking (AOB)",
+        "Folder" : "ADM Products",
+        "Placement" : "toolbar",
+        "URL" : "http://nimbusserver.aos.com:8280"
+      },
+      {
         "Title" : "Advantage Online Shopping (AOS)",
         "Folder" : "ADM Products",
         "Placement" : "toolbar",
