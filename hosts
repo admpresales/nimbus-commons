@@ -3,3 +3,7 @@
 192.168.80.140	nimbusclient nimbusclient.aos.com lg-nimbusclient seattle denver chicago toronto london tokyo
 192.168.80.141	nimbusserver nimbusserver.aos.com
 192.168.80.142	nimbuswindows nimbuswindows.aos.com
+
+192.168.239.203 sap-sm.mfdemoportal.com sap-sm
+192.168.239.201 sap-hana.mfdemoportal.com
+192.168.239.202 sap-java.mfdemoportal.com
