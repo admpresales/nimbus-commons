@@ -1,0 +1,64 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+
+use IO::Handle;
+use Net::FTP;
+use Term::ReadKey;
+
+sub usage {
+        print qq"Usage: $0 { <FTP_SERVER> <ARCHIVE_PATH> | ftp://<USER>:<PASS>@<SERVER>/<PATH> }
+
+        FTP_SERVER      Address of the FTP Server to download from
+        ARCHIVE_PATH    Path to a .tar[.gz] file containing one or more exported Docker images
+";
+        exit 1;
+}
+
+shift =~ m{
+        ^ (?: ftp:// )?                 # Optional protocol
+          (?:   (?<user> .*? )          # Optional username
+                (?: : (?<pass> .*? ))?  # Optional colon and password
+          @)?                           # @ sign required if providing user/password
+          (?<server>   .+? )            # Server address
+          (?<file>   / .*  )? $         # Optional slash and path to file
+}x;
+
+my $ftpServer = $+{server} || usage;
+my $ftpUser   = $+{user}   || $ENV{FTP_USER};
+my $ftpPass   = $+{pass}   || $ENV{FTP_PASS};
+my $file      = shift      || $+{file}          || usage;
+
+while (!$ftpUser) {
+        print "FTP Username: ";
+        $ftpUser = ReadLine;
+        chomp($ftpUser);
+}
+
+while (!$ftpPass) {
+        print "FTP Password: ";
+        ReadMode "noecho";
+        $ftpPass = ReadLine;
+        chomp($ftpPass);
+        ReadMode "normal";
+        print "\n";
+}
+
+my $ftp = Net::FTP->new($ftpServer) or die "Could not connect to FTP: $@\n";
+$ftp->login($ftpUser, $ftpPass) or die "Could not login: ", $ftp->message;
+$ftp->hash(\*STDOUT, 1024000 * 5); # Show a hash mark every 5 MB
+$ftp->passive(1); # Passive mode connection prevents some timeout issues
+$ftp->binary;
+
+open(my $load, '|-', 'docker', 'load') or die "Can't run docker load: $!";
+
+print "Downloading '$file', this could take several minutes.\n";
+
+$ftp->get($file, $load) or die "Could not get '$file': ", $ftp->message;
+$ftp->quit;
+
+close($load);
+
+print "Load complete.\n";
+print "You can now start the container with nimbusapp.\n";
